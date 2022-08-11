@@ -46,7 +46,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="With Type of Pizza Would  you Like?" />
+                android:text="@string/Greeting_text_text_view"
+                android:textStyle="bold"/>
 
             <RadioGroup
                 android:id="@+id/pizza_group"
@@ -57,19 +58,21 @@
                     android:id="@+id/radio_diavolo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Diavolo" />
+                    android:text="@string/pizza_type_1" />
 
                 <RadioButton
                     android:id="@+id/radio_funghi"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Funghi" />
+                    android:text="@string/pizza_type_2" />
             </RadioGroup>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Please choose any extras:" />
+                android:text="@string/extras_text"
+                android:textStyle="bold"/>
+
 
             <com.google.android.material.chip.ChipGroup
                 android:layout_width="wrap_content"
@@ -99,5 +102,6 @@
         android:layout_gravity="bottom|end"
         android:layout_margin="16dp"
         android:src="@android:drawable/ic_menu_send" />
+
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
